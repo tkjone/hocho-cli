@@ -1,4 +1,6 @@
 exclude .gitignore
+exclude CHANGELOG.rst
+exclude CONTRIBUTORS.rst
 exclude .coverage
 exclude .travis.yml
 include README.rst

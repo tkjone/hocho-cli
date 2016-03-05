@@ -14,16 +14,10 @@ Installation
 
 .. code-block::
 
-    pip install
+    pip install git+https://github.com/tkjone/hocho-cli.git
 
 Usage
 =====
-
-Just by typing in ``hocho`` you will get a warm and friendly message.
-
-.. code-block::
-
-    welcome to hocho
 
 How do I learn about hocho?  Try typing in ``hocho --help``
 
@@ -41,12 +35,12 @@ Deep Dive
 ``hocho`` is the main command.  It has several subcommands that allows us to do some magical things.
 
 stir : subcommand
-    takes one argument:
-        filename: the name of the file you are going to create
-    flags:
-        -s, --styles: tells hocho to create a style file.
-    example:
-        hocho stir material.styl -s
+    When you run ``hocho stir`` you will be prompted with one question at this moment.  Press enter and you are asked to create a file name.  The result is that hocho will create a ``[name].styl`` file.  This file is created in whichever directory you are currently in.
 
+More to come.
 
+Thanks
+======
+
+I want to give a special thank you to Anya Craig who helped me with the ideation for this project!  hocho would not exist without you!
 
